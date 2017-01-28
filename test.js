@@ -1,9 +1,15 @@
 'use strict'
 
 const test = require('tape')
-const todo = require('.')
+const stations = require('vbb-stations')
+const withWifi = require('.')
 
+test('each station exists', (t) => {
+	t.plan(withWifi.length * 2)
 
-
-test('todo', (t) => {
+	for (let id of withWifi) {
+		const [station] = stations(id)
+		t.ok(station)
+		t.equal(id, station.id)
+	}
 })
