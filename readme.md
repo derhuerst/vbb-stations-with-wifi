@@ -1,5 +1,7 @@
 # vbb-stations-with-wifi
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/vbb-stations-with-wifi.svg)](https://greenkeeper.io/)
+
 **All VBB stations with free wifi.**
 
 [![npm version](https://img.shields.io/npm/v/vbb-stations-with-wifi.svg)](https://www.npmjs.com/package/vbb-stations-with-wifi)
