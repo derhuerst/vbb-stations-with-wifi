@@ -12,9 +12,9 @@
 	"license":      "ISC",
 	"engines":      {"node": ">=6"},
 	"devDependencies": {
+		"tap-min": "^1.2.2",
 		"tape": "^4.6.3",
-		"vbb-stations": "^6.0.0",
-		"tap-min": "derhuerst/tap-min"
+		"vbb-stations": "^6.0.0"
 	},
 	"scripts": {
 		"test": "node test.js | tap-min",
