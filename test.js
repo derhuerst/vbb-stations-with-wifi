@@ -4,6 +4,7 @@ const test = require('tape')
 const isMac = require('is-mac')
 const findStations = require('vbb-stations')
 const data = require('.')
+const byBssid = require('./by-bssid')
 
 const strNotEmpty = str => 'string' === typeof str && str.length > 0
 
@@ -78,6 +79,18 @@ test('each BSSID exists only once', (t) => {
 			if (known[ap.bssid]) t.fail(`${name} and ${known[ap.bssid]} are equal`)
 			known[ap.bssid] = name
 		}
+	}
+	t.end()
+})
+
+test('byBssid is valid', (t) => {
+	const bssids = Object.keys(byBssid)
+	for (const bssid of bssids) {
+		const ap = byBssid[bssid]
+		const name = `byBssid.${bssid}`
+
+		checkAccessPoint(t, name, Object.assign({bssid}, ap))
+		t.ok(strNotEmpty(ap.station), `${name}.station must be string & not empty`)
 	}
 	t.end()
 })
