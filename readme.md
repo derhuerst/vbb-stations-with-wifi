@@ -19,7 +19,63 @@ npm install vbb-stations-with-wifi
 ## Usage
 
 ```js
-// todo
+const stations = require('vbb-stations-with-wifi')
+
+console.log(stations['900000023101']) // U Ernst-Reuter-Platz
+```
+
+```js
+{
+	wifi: true,
+	accessPoints: [ {
+		type: 'platform',
+		line: 'U2',
+		platform: null,
+		nextStation: '900000022201',
+		position: 0.35,
+		bssid: '00:81:c4:e7:0d:8f',
+		mac: null
+	}, {
+		type: 'platform',
+		line: 'U2',
+		platform: null,
+		nextStation: '900000022201',
+		position: 0.65,
+		bssid: '00:81:c4:e7:0e:7f',
+		mac: null
+	}, {
+		type: 'entrance',
+		comment: 'to U2 towards Pankow',
+		bssid: '00:81:c4:9d:b4:af',
+		mac: null
+	}, {
+		type: 'entrance',
+		comment: 'to U2 towards Ruhleben',
+		bssid: '00:f6:63:af:f8:af',
+		mac: null
+	} ]
+}
+```
+
+### By BSSID
+
+```js
+const byBssid = require('vbb-stations-with-wifi/by-bssid')
+
+console.log(byBssid['00:81:c4:e7:0e:7f'])
+```
+
+```js
+{
+	station: '900000023101',
+	type: 'platform',
+	line: 'U2',
+	platform: null,
+	nextStation: '900000022201',
+	position: 0.65,
+	bssid: '00:81:c4:e7:0e:7f',
+	mac: null
+}
 ```
 
 ## Contributing

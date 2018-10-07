@@ -4,7 +4,8 @@
 	"version": "0.1.0",
 	"main": "index.js",
 	"files": [
-		"index.js"
+		"index.js",
+		"by-bssid.js"
 	],
 	"keywords": [
 		"vbb",
@@ -31,5 +32,8 @@
 	"scripts": {
 		"test": "node test.js | tap-min",
 		"prepublish": "npm test"
+	},
+	"dependencies": {
+		"lodash.omit": "^4.5.0"
 	}
 }
