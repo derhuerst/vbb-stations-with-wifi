@@ -1,6 +1,6 @@
 # vbb-stations-with-wifi
 
-**All VBB stations with free wifi.**
+**VBB stations with free wifi** and their [BSSIDs](https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Basic_service_sets_(BSSs)).
 
 [![npm version](https://img.shields.io/npm/v/vbb-stations-with-wifi.svg)](https://www.npmjs.com/package/vbb-stations-with-wifi)
 [![build status](https://img.shields.io/travis/derhuerst/vbb-stations-with-wifi.svg)](https://travis-ci.org/derhuerst/vbb-stations-with-wifi)
@@ -19,15 +19,11 @@ npm install vbb-stations-with-wifi
 ## Usage
 
 ```js
-const withWifi = require('vbb-stations-with-wifi')
-
-console.log(withWifi.includes('900000044201')) // U Berliner Str.
-// true
+// todo
 ```
-
-`withWifi` is an array of [station ids](https://github.com/derhuerst/vbb-stations#vbb-stations-).
-
 
 ## Contributing
 
 If you **have a question**, **found a bug** or want to **propose a feature**, have a look at [the issues page](https://github.com/derhuerst/location/issues).
+
+Keep in mind that this project is [unlicensed](https://unlicense.org) and therefore in the [public domain](https://en.wikipedia.org/wiki/Public_domain). You will have to [waive your copyright claims when contributing](https://unlicense.org/#unlicensing-contributions).

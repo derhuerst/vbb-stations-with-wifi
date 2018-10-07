@@ -1,15 +1,26 @@
 {
-	"name":         "vbb-stations-with-wifi",
-	"description":  "All VBB stations with free wifi.",
-	"version":      "0.1.0",
-	"main":         "index.js",
-	"files":        ["index.js"],
-	"keywords":     ["vbb", "bvg", "berlin", "wifi", "internet"],
+	"name": "vbb-stations-with-wifi",
+	"description": "VBB stations with free wifi and their BSSIDs.",
+	"version": "0.1.0",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"vbb",
+		"bvg",
+		"berlin",
+		"public transport",
+		"ubahn",
+		"wifi",
+		"wlan",
+		"internet"
+	],
 	"author":       "Jannis R <mail@jannisr.de>",
 	"homepage":     "https://github.com/derhuerst/vbb-stations-with-wifi",
 	"repository":   "derhuerst/vbb-stations-with-wifi",
 	"bugs":         "https://github.com/derhuerst/vbb-stations-with-wifi/issues",
-	"license":      "ISC",
+	"license": "Unlicense",
 	"engines":      {"node": ">=6"},
 	"devDependencies": {
 		"tap-min": "^1.2.2",
