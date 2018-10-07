@@ -23,6 +23,7 @@
 	"license": "Unlicense",
 	"engines":      {"node": ">=6"},
 	"devDependencies": {
+		"is-mac": "^1.0.1",
 		"tap-min": "^1.2.2",
 		"tape": "^4.6.3",
 		"vbb-stations": "^6.0.0"
