@@ -1,6 +1,6 @@
 # vbb-stations-with-wifi
 
-**VBB stations with free wifi** and their [BSSIDs](https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Basic_service_sets_(BSSs)).
+**VBB stations with free wifi** and their [BSSIDs](https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Basic_service_sets_(BSSs)). [Contribute](contributing.md)!
 
 [![npm version](https://img.shields.io/npm/v/vbb-stations-with-wifi.svg)](https://www.npmjs.com/package/vbb-stations-with-wifi)
 [![build status](https://img.shields.io/travis/derhuerst/vbb-stations-with-wifi.svg)](https://travis-ci.org/derhuerst/vbb-stations-with-wifi)
@@ -109,10 +109,3 @@ An item in `accessPoints` should either have `type: 'platform'` (an access point
 ¹ "front end" is the end *of the station* that the a vehicle running at the platform points to (*not* where the "front end" of the vehicle will be).
 
 *Pro tip:* Use [`vbb-stations-cli`](https://npmjs.com/package/vbb-stations-cli) to find station IDs.
-
-
-## Contributing
-
-If you **have a question**, **found a bug** or want to **propose a feature**, have a look at [the issues page](https://github.com/derhuerst/location/issues).
-
-Keep in mind that this project is [unlicensed](https://unlicense.org) and therefore in the [public domain](https://en.wikipedia.org/wiki/Public_domain). You will have to [waive your copyright claims when contributing](https://unlicense.org/#unlicensing-contributions).
