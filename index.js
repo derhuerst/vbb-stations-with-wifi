@@ -277,5 +277,131 @@ module.exports = {
 				mac: null
 			}
 		]
+	},
+	// U Walther-Schreiber-Platz
+	'900000061101': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				line: 'U9',
+				platform: null,
+				nextStation: '900000061102', // U Friedrich-Wilhelm-Platz
+				position: 0.6,
+				bssid: '00:81:c4:f8:84:bf',
+				mac: null
+			},
+			{
+				type: 'platform',
+				line: 'U9',
+				platform: null,
+				nextStation: '900000061102', // U Friedrich-Wilhelm-Platz
+				position: 1,
+				bssid: '00:81:c4:21:59:df',
+				mac: null
+			},
+			{
+				type: 'platform',
+				line: 'U9',
+				platform: null,
+				nextStation: '900000062203', // U Schloßstr.
+				position: 0.4,
+				bssid: '00:81:c4:f8:84:4f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				line: 'U9',
+				platform: null,
+				nextStation: '900000062203', // U Schloßstr.
+				position: 1,
+				bssid: '00:81:c4:e6:70:8f',
+				mac: null
+			}
+		]
+	},
+	// U Berliner Str.
+	'900000044201': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				line: 'U9',
+				platform: null,
+				nextStation: '900000043201', // U Güntzelstr.
+				position: 0.25,
+				bssid: '00:81:c4:e6:6c:df',
+				mac: null
+			},
+			{
+				type: 'platform',
+				line: 'U9',
+				platform: null,
+				nextStation: '900000043201', // U Güntzelstr.
+				position: 0.75,
+				bssid: '00:81:c4:f6:15:e0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				line: 'U9',
+				platform: null,
+				nextStation: '900000044202', // S+U Bundesplatz
+				position: 0.25,
+				bssid: '00:81:c4:e6:aa:1f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				line: 'U9',
+				platform: null,
+				nextStation: '900000044202', // S+U Bundesplatz
+				position: 0.8,
+				bssid: '00:81:c4:9d:9c:af',
+				mac: null
+			},
+			{
+				type: 'platform',
+				line: 'U7',
+				platform: null,
+				nextStation: '900000055102', // U Bayerischer Platz
+				position: 0.35,
+				bssid: '00:81:c4:9d:b5:df',
+				mac: null
+			},
+			{
+				type: 'platform',
+				line: 'U7',
+				platform: null,
+				nextStation: '900000055102', // U Bayerischer Platz
+				position: 0.9,
+				bssid: '00:81:c4:6e:64:7f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				line: 'U7',
+				platform: null,
+				nextStation: '900000041102', // U Blissestr.
+				position: 0.3,
+				bssid: '00:81:c4:f6:1b:3f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				line: 'U7',
+				platform: null,
+				nextStation: '900000041102', // U Blissestr.
+				position: 0.9,
+				bssid: '00:81:c4:f8:c4:0f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'main entrace',
+				bssid: '00:81:c4:e7:10:7f',
+				mac: null
+			}
+		]
 	}
 }
