@@ -80,7 +80,7 @@ module.exports = {
 				type: 'platform',
 				line: 'U9',
 				platform: null,
-				nextStation: '900000009202', // U Osloer Str.
+				nextStation: '900000009102', // U Leopoldplatz
 				position: 0.5,
 				bssid: '00:81:c4:90:cf:4f',
 				mac: null
@@ -89,14 +89,14 @@ module.exports = {
 				type: 'platform',
 				line: 'U9',
 				platform: null,
-				nextStation: '900000009202', // U Osloer Str.
+				nextStation: '900000009102', // U Leopoldplatz
 				position: 0.75, // todo: this is inexact
 				bssid: '00:81:c4:91:06:7f',
 				mac: null
 			},
 			{
-				type: 'entrance',
-				comment: 'west',
+				type: 'other',
+				comment: 'west entrance',
 				bssid: '00:81:c4:f8:88:cf',
 				mac: null
 			}
@@ -232,13 +232,13 @@ module.exports = {
 				mac: null
 			},
 			{
-				type: 'entrance',
+				type: 'other',
 				comment: 'north end of U2 <-> U6 tunnel',
 				bssid: '00:81:c4:f6:12:2f',
 				mac: null
 			},
 			{
-				type: 'entrance',
+				type: 'other',
 				comment: 'middle of U2 <-> U6 tunnel',
 				bssid: '00:81:c4:93:fb:ef',
 				mac: null

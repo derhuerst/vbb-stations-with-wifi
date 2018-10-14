@@ -44,13 +44,13 @@ console.log(stations['900000023101']) // U Ernst-Reuter-Platz
 		bssid: '00:81:c4:e7:0e:7f',
 		mac: null
 	}, {
-		type: 'entrance',
-		comment: 'to U2 towards Pankow',
+		type: 'other',
+		comment: 'entrance to U2 towards Pankow',
 		bssid: '00:81:c4:9d:b4:af',
 		mac: null
 	}, {
-		type: 'entrance',
-		comment: 'to U2 towards Ruhleben',
+		type: 'other',
+		comment: 'entrance to U2 towards Ruhleben',
 		bssid: '00:f6:63:af:f8:af',
 		mac: null
 	} ]
