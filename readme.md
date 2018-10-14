@@ -78,6 +78,35 @@ console.log(byBssid['00:81:c4:e7:0e:7f'])
 }
 ```
 
+
+## Data structure
+
+[`index.js`](index.js) looks like this:
+
+```js
+{
+	'station-id-123': {
+		wifi: true,
+		accessPoints: […]
+	}
+	// …
+}
+```
+
+An item in `accessPoints` should either have `type: 'platform'` (an access point located close to or at a platform) or `type: 'other'` (an access point located somewhere else). The markup for `type: 'platform'` is as follows:
+
+| key | description | required | example |
+| -------- | ----------- | -------- | ------- |
+| `line` | the line running at the platform | yes | `'U2'` |
+| `platform` | the name of the platform | no | `'3a'` |
+| `nextStation` | ID of the next station on the line (use [`vbb-stations-cli`](https://npmjs.com/package/vbb-stations-cli)) | yes | `'900000022101'` |
+| `position`| position of the access point at the platform, between `0` (rear end of the station) and `1` (front end of the station) ¹ | yes | `0.2` |
+| `bssid`| [BSSID](https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Basic_service_sets_(BSSs)), lower case | yes | `'00:f6:63:cc:00:9f'` |
+| `mac` | [MAC address](https://en.wikipedia.org/wiki/MAC_address), lower case | no | `'00:f6:63:cc:00:9f'` |
+
+¹ "front end" is the end *of the station* that the a vehicle running at the platform points to (*not* where the "front end" of the vehicle will be).
+
+
 ## Contributing
 
 If you **have a question**, **found a bug** or want to **propose a feature**, have a look at [the issues page](https://github.com/derhuerst/location/issues).
