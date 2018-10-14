@@ -21,15 +21,23 @@ const checkAccessPoint = (t, name, ap) => {
 	}
 
 	if (ap.type === 'platform') {
-		t.ok(strNotEmpty(ap.line), `${name}.line must be string & not empty`)
 		if (ap.platform !== null) {
 			t.ok(strNotEmpty(ap.platform), `${name}.platform must be string & not empty`)
 		}
 
-		t.ok(strNotEmpty(ap.nextStation), `${name}.nextStation must be string & not empty`)
-		const [next] = findStations(ap.nextStation)
-		t.ok(next, `${name}.nextStation: no station found`)
-		t.equal(ap.nextStation, next.id, `${name}.nextStation: invalid ID`)
+		t.ok(Array.isArray(ap.lines), `${name}.lines must be an array`)
+		for (let i = 0; i < ap.lines.length; i++) {
+			const l = ap.lines[i]
+			const n = `${name}.lines[${i}]`
+			t.ok(l, `${n} must be an object`)
+
+			const [line, nextStation] = l
+			t.ok(strNotEmpty(line), `${n}: line must be string & not empty`)
+			t.ok(strNotEmpty(nextStation), `${n}: next must be string & not empty`)
+			const [next] = findStations(nextStation)
+			t.ok(next, `${n}: no station found for ID from nextStation`)
+			t.equal(nextStation, next.id, `${n}: nextStation is an invalid ID`)
+		}
 
 		if (ap.position !== null) {
 			t.equal(typeof ap.position, 'number', `${name}.position must be a number`)
