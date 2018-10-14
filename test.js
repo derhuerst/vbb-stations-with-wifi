@@ -35,9 +35,9 @@ const checkAccessPoint = (t, name, ap) => {
 			t.equal(typeof ap.position, 'number', `${name}.position must be a number`)
 			t.ok(ap.position >= 0 && ap.position <= 1, `${name}.position must be >=0, <=1`)
 		}
-	} else if (ap.type === 'entrance') {
+	} else if (ap.type === 'other') {
 		t.ok(strNotEmpty(ap.comment), `${name}.comment must be string & not empty`)
-	} else t.fail(`${name}.type must be \`platform\` or \`entrance\``)
+	} else t.fail(`${name}.type must be \`platform\` or \`other\``)
 }
 
 test('each station ID is valid', (t) => {
