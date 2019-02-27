@@ -437,5 +437,113 @@ module.exports = {
 				mac: null
 			}
 		]
+	},
+	// U Theodor-Heuss-Platz
+	'900000026201': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000026101'] // Neu-Westend
+				],
+				position: 1,
+				bssid: '00:81:c4:91:0d:ff',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000026101'] // Neu-Westend
+				],
+				position: 0.5,
+				bssid: '00:81:c4:91:05:0f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000026101'] // Neu-Westend
+				],
+				position: 0.05,
+				bssid: '00:81:c4:e6:a9:4f',
+				mac: null
+			}
+		]
+	},
+	// U Moritzplatz
+	'900000013101': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013102'] // Kottbusser Tor
+				],
+				position: 0.3,
+				bssid: '00:81:c4:21:5e:af',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013102'] // Kottbusser Tor
+				],
+				position: 0.8,
+				bssid: '00:81:c4:6e:4e:df',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000100008'] // Heinrich-Heine-Str.
+				],
+				position: 0.8,
+				bssid: '00:81:c4:9d:6d:cf',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000100008'] // Heinrich-Heine-Str.
+				],
+				position: 0.4,
+				bssid: '00:81:c4:7c:7f:a0',
+				mac: null
+			}
+		]
+	},
+	// U Rosa-Luxemburg-Platz
+	'900000100016': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000100703'] // S+U Alexanderplatz [U2]
+				],
+				position: 0.5,
+				bssid: '00:81:c4:f6:19:30',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000110005'] // U Senefelderplatz
+				],
+				position: 0.5,
+				bssid: '00:78:88:ad:a4:7f',
+				mac: null
+			}
+		]
 	}
 }
