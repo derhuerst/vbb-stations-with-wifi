@@ -545,5 +545,84 @@ module.exports = {
 				mac: null
 			}
 		]
+	},
+	// U Oranienburger Tor
+	'900000100019': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100009'] // U Naturkundemuseum
+				],
+				position: .3, // todo: this is not exact
+				bssid: '00:81:c4:e7:0d:1f',
+				mac: null
+			}
+			// todo: there are more
+		]
+	},
+	// S+U Schönhauser Allee
+	'900000110001': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000110006'] // U Eberswalder Str.
+				],
+				position: 0,
+				bssid: '00:81:c4:f6:15:cf',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000110006'] // U Eberswalder Str.
+				],
+				position: .7,
+				bssid: '00:81:c4:e6:9f:cf',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000110006'] // U Eberswalder Str.
+				],
+				position: 1,
+				bssid: '00:81:c4:f8:8c:9f',
+				mac: null
+			}
+		]
+	},
+	// U Vinetastr.
+	'900000130011': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000130002'] // S+U Pankow
+				],
+				position: .7,
+				bssid: '00:81:c4:f6:3d:5f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000110001'] // S+U Schönhauser Allee
+				],
+				position: .3,
+				bssid: '00:81:c4:e7:0d:af',
+				mac: null
+			}
+		]
 	}
 }
