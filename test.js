@@ -13,6 +13,7 @@ const checkAccessPoint = (t, name, ap) => {
 		t.ok(typeof ap.bssid, 'string', `${name}.bssid must be a string`)
 		t.ok(isMac(ap.bssid), `${name}.bssid must be in MAC address format`)
 		t.equal(ap.bssid, ap.bssid.toLowerCase(), `${name}.bssid must lower-case`)
+		t.notOk(ap.bssid.includes('-'), `${name}.bssid must use the : notation`)
 	}
 	if (ap.mac !== null) {
 		t.ok(typeof ap.mac, 'string', `${name}.mac must be a string`)

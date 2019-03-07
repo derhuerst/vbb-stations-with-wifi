@@ -17,12 +17,14 @@
 		"wlan",
 		"internet"
 	],
-	"author":       "Jannis R <mail@jannisr.de>",
-	"homepage":     "https://github.com/derhuerst/vbb-stations-with-wifi",
-	"repository":   "derhuerst/vbb-stations-with-wifi",
-	"bugs":         "https://github.com/derhuerst/vbb-stations-with-wifi/issues",
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/vbb-stations-with-wifi",
+	"repository": "derhuerst/vbb-stations-with-wifi",
+	"bugs": "https://github.com/derhuerst/vbb-stations-with-wifi/issues",
 	"license": "Unlicense",
-	"engines":      {"node": ">=6"},
+	"engines": {
+		"node": ">=6.5.0"
+	},
 	"devDependencies": {
 		"is-mac": "^1.0.1",
 		"tap-min": "^1.2.2",
