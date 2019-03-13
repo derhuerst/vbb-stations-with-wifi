@@ -699,4 +699,176 @@ module.exports = {
 			// todo: where is `00:81:c4:93:da:ff`?
 		]
 	},
+	// U Hermannstr
+	'900000079221': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000079201'] // U Leinestr
+				],
+				position: .1,
+				bssid: '00:81:c4:7c:ea:5f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					// todo: actually it's .6 on the south-bound side
+					['U8', '900000079201'] // U Leinestr
+				],
+				position: .4,
+				bssid: '00:81:c4:93:c2:60',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000079201'] // U Leinestr
+				],
+				position: .7,
+				bssid: '00:81:c4:93:c4:cf',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					// todo: actually it's .2 on the south-bound side
+					['U8', '900000079201'] // U Leinestr
+				],
+				position: .8,
+				bssid: '00:81:c4:7c:d0:1f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'south entrance',
+				bssid: '00:81:c4:93:c7:7f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'north entrance',
+				bssid: '00:81:c4:93:c5:1f',
+				mac: null
+			}
+		]
+	},
+	// U Osloer Str
+	'900000009202': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000085202'] // U Franz-Neumann-Platz
+				],
+				position: 1,
+				bssid: 'a4:6c:2a:37:96:2f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000085202'] // U Franz-Neumann-Platz
+				],
+				position: .3,
+				bssid: 'a4:6c:2a:4a:ac:6f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009203'] // U Pankstr.
+				],
+				position: .65,
+				bssid: 'a4:6c:2a:2f:68:5f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009203'] // U Pankstr.
+				],
+				position: .9,
+				bssid: 'a4:6c:2a:47:5f:df',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000009201'] // U Nauener Platz
+				],
+				position: .4,
+				bssid: 'a8:9d:21:8c:99:6f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000009201'] // U Nauener Platz
+				],
+				position: .9,
+				bssid: 'a4:6c:2a:2f:65:0f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					// todo: actually it's .9 on the north-bound side
+					['U9', '900000009201'] // U Nauener Platz
+				],
+				position: .1,
+				bssid: 'a4:6c:2a:6c:0e:0f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					// todo: actually it's .65 on the north-bound side
+					['U9', '900000009201'] // U Nauener Platz
+				],
+				position: .35,
+				bssid: 'a4:6c:2a:6c:10:8f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'tram entrance',
+				bssid: 'a4:6c:2a:51:89:4f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'west entrance',
+				bssid: 'a4:6c:2a:20:bf:9f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'center of the entrance area',
+				bssid: 'a4:6c:2a:20:c5:4f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'center of the entrance area',
+				bssid: 'a4:6c:2a:51:89:40',
+				mac: null
+			}
+		]
+	},
 }
