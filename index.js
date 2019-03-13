@@ -624,5 +624,79 @@ module.exports = {
 				mac: null
 			}
 		]
-	}
+	},
+	// S+U Yorckstr
+	'900000057103': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U7', '900000017104'] // U Möckernbrücke
+				],
+				position: .5, // todo: is this correct?
+				bssid: '00:81:c4:f6:24:a0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U7', '900000017104'] // U Möckernbrücke
+				],
+				position: .9, // todo: is this correct?
+				bssid: '00:81:c4:f8:8b:9f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U7', '900000054102'] // U Kleistpark
+				],
+				position: .5, // todo: is this correct?
+				bssid: '00:81:c4:9d:b4:f0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U7', '900000054102'] // U Kleistpark
+				],
+				position: .15, // todo: is this correct?
+				bssid: '00:81:c4:9d:b3:df',
+				mac: null
+			}
+			// todo: where is `00:81:c4:9d:b3:d0`?
+		]
+	},
+	// S+U Wedding
+	'900000009104': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000009102'] // U Leopoldplatz
+				],
+				position: .5, // todo: this is inexact
+				bssid: '00:81:c4:93:da:f0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000008102'] // U Reinickendorfer Str.
+				],
+				position: .5, // todo: this is inexact
+				bssid: '00:81:c4:7c:8b:7f',
+				mac: null
+			}
+			// todo: where is `00:81:c4:93:da:ff`?
+		]
+	},
 }
