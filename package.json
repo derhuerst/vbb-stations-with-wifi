@@ -12,7 +12,7 @@
 	"license":      "ISC",
 	"engines":      {"node": ">=6"},
 	"devDependencies": {
-		"tap-min": "^1.2.2",
+		"tap-min": "^2.0.0",
 		"tape": "^4.6.3",
 		"vbb-stations": "^6.0.0"
 	},
