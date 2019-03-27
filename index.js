@@ -871,4 +871,111 @@ module.exports = {
 			}
 		]
 	},
+	// U Platz der Luftbrücke
+	'900000017102': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000068101'] // U Paradestr.
+				],
+				position: .5, // actually .6, but pointing south
+				bssid: '00:81:c4:7c:cf:cf',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000068101'] // U Paradestr.
+				],
+				position: .75, // actually .65, but pointing north
+				bssid: '00:81:c4:7c:d9:8f',
+				mac: null
+			}
+		]
+	},
+	// U Seestr.
+	'900000009103': {
+		wifi: true,
+		accessPoints: [
+			// todo: where is `00:81:c4:91:06:ef`?
+		]
+	},
+	// U Pankow
+	'900000130002': {
+		wifi: true,
+		accessPoints: [
+			// todo: where is `00:81:c4:90:fe:8f`?
+		]
+	},
+	// U Hallesches Tor
+	'900000012103': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000012102'] // U Kochstr./Checkpoint Charlie
+				],
+				position: .25,
+				bssid: '00:81:c4:f8:8c:3f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000017101'] // U Mehringdamm
+				],
+				position: .15,
+				bssid: '00:81:c4:6e:6e:2f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000017101'] // U Mehringdamm
+				],
+				position: .75,
+				bssid: '00:81:c4:7c:cf:3f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'southern entrance of U6 section',
+				bssid: '00:81:c4:9d:bb:3f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'northern entrance of U6 section',
+				bssid: '00:81:c4:74:42:50',
+				mac: null
+			}
+		]
+	},
+	// U Kurt-Schumacher-Platz
+	'900000086102': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'other',
+				comment: 'entrance',
+				bssid: '00:6b:f1:29:e2:80',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'entrance',
+				bssid: '00:6b:f1:29:e2:bf',
+				mac: null
+			}
+			// todo: there are more
+		]
+	}
 }
