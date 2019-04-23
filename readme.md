@@ -21,7 +21,7 @@ npm install vbb-stations-with-wifi
 ```js
 const withWifi = require('vbb-stations-with-wifi')
 
-console.log(wifiWifi.includes('900000044201')) // U Berliner Str.
+console.log(withWifi.includes('900000044201')) // U Berliner Str.
 // true
 ```
 
