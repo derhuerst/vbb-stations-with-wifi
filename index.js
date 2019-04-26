@@ -974,8 +974,197 @@ module.exports = {
 				comment: 'entrance',
 				bssid: '00:6b:f1:29:e2:bf',
 				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'], // U Afrikanische Str.
+					['U6', '900000087101'] // U Scharnweberstr.
+				],
+				position: null, // todo
+				bssid: '00:2a:10:22:ee:ff',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'], // U Afrikanische Str.
+					['U6', '900000087101'] // U Scharnweberstr.
+				],
+				position: null, // todo
+				bssid: '00:2a:10:22:ee:f0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'], // U Afrikanische Str.
+					['U6', '900000087101'] // U Scharnweberstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f6:1a:df',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'], // U Afrikanische Str.
+					['U6', '900000087101'] // U Scharnweberstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f8:8e:cf',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'], // U Afrikanische Str.
+					['U6', '900000087101'] // U Scharnweberstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f6:1a:d0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'], // U Afrikanische Str.
+					['U6', '900000087101'] // U Scharnweberstr.
+				],
+				position: null, // todo
+				bssid: '00:6b:f1:29:e2:8f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'], // U Afrikanische Str.
+					['U6', '900000087101'] // U Scharnweberstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e7:0d:7f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'], // U Afrikanische Str.
+					['U6', '900000087101'] // U Scharnweberstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:90:d3:8f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'], // U Afrikanische Str.
+					['U6', '900000087101'] // U Scharnweberstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f8:8e:c0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'], // U Afrikanische Str.
+					['U6', '900000087101'] // U Scharnweberstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e7:0d:70',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'], // U Afrikanische Str.
+					['U6', '900000087101'] // U Scharnweberstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f8:bb:9f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'], // U Afrikanische Str.
+					['U6', '900000087101'] // U Scharnweberstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f8:bb:90',
+				mac: null
 			}
-			// todo: there are more
+		]
+	},
+	// U Möckernbrücke
+	'900000017104': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U1', '900000012103'], // U Hallesches Tor
+					['U1', '900000017103'], // U Gleisdreieck
+					['U3', '900000012103'], // U Hallesches Tor
+					['U3', '900000017103'] // U Gleisdreieck
+				],
+				position: null, // todo
+				bssid: '00:81:c4:9d:92:f0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U1', '900000012103'], // U Hallesches Tor
+					['U1', '900000017103'], // U Gleisdreieck
+					['U3', '900000012103'], // U Hallesches Tor
+					['U3', '900000017103'] // U Gleisdreieck
+				],
+				position: null, // todo
+				bssid: '00:81:c4:90:bc:a0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U1', '900000012103'], // U Hallesches Tor
+					['U1', '900000017103'], // U Gleisdreieck
+					['U3', '900000012103'], // U Hallesches Tor
+					['U3', '900000017103'] // U Gleisdreieck
+				],
+				position: null, // todo
+				bssid: '00:81:c4:9d:92:ff',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U1', '900000012103'], // U Hallesches Tor
+					['U1', '900000017103'], // U Gleisdreieck
+					['U3', '900000012103'], // U Hallesches Tor
+					['U3', '900000017103'] // U Gleisdreieck
+				],
+				position: null, // todo
+				bssid: '00:81:c4:90:bc:af',
+				mac: null
+			}
 		]
 	}
 }
