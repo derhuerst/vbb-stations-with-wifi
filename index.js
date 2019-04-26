@@ -1166,5 +1166,105 @@ module.exports = {
 				mac: null
 			}
 		]
+	},
+	// U Klosterstr.
+	'900000100015': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000100014'], // U Märkisches Museum
+					['U2', '900000100003'] // U Alexanderplatz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:7c:d3:40',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000100014'], // U Märkisches Museum
+					['U2', '900000100003'] // U Alexanderplatz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:90:ff:ef',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000100014'], // U Märkisches Museum
+					['U2', '900000100003'] // U Alexanderplatz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:90:ff:e0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000100014'], // U Märkisches Museum
+					['U2', '900000100003'] // U Alexanderplatz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:7c:d3:4f',
+				mac: null
+			}
+		]
+	},
+	// U Neu-Westend
+	'900000026101': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000025203'], // U Olympia-Stadion
+					['U2', '900000026201'] // U Theodor-Heuss-Platz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:7c:7c:7f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000025203'], // U Olympia-Stadion
+					['U2', '900000026201'] // U Theodor-Heuss-Platz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:7c:7c:70',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000025203'], // U Olympia-Stadion
+					['U2', '900000026201'] // U Theodor-Heuss-Platz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e6:69:1f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000025203'], // U Olympia-Stadion
+					['U2', '900000026201'] // U Theodor-Heuss-Platz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e6:69:10',
+				mac: null
+			}
+		]
 	}
 }
