@@ -1781,4 +1781,213 @@ module.exports = {
 			},
 		]
 	},
+	// U Weberwiese
+	'900000120025': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U5', '900000120008'] // U Frankfurter Tor
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f6:52:40',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U5', '900000120008'] // U Frankfurter Tor
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f6:52:4f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U5', '900000120008'] // U Frankfurter Tor
+				],
+				position: null, // todo
+				bssid: '00:81:c4:90:a7:30',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U5', '900000120008'] // U Frankfurter Tor
+				],
+				position: null, // todo
+				bssid: '00:81:c4:90:a7:3f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U5', '900000120008'] // U Frankfurter Tor
+				],
+				position: .8, // todo: this is inexact
+				bssid: '00:81:c4:93:c7:a0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U5', '900000120008'] // U Frankfurter Tor
+				],
+				position: .8, // todo: this is inexact
+				bssid: '00:81:c4:93:c7:af',
+				mac: null
+			},
+		]
+	},
+	// S+U Gesundbrunnen
+	'900000007102': {
+		wifi: true,
+		accessPoints: [
+			// todo: correct the directions, U8 platform is very wide
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009203'] // U Pankstr.
+				],
+				position: .2, // todo: this is inexact
+				bssid: '00:81:c4:e7:12:00',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009203'] // U Pankstr.
+				],
+				position: .2, // todo: this is inexact
+				bssid: '00:81:c4:e7:12:0f',
+				mac: null
+			},
+			{ // todo: probably on the other side of the platform
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009203'] // U Pankstr.
+				],
+				position: .2, // todo: this is inexact
+				bssid: '00:81:c4:9d:b2:a0',
+				mac: null
+			},
+			{ // todo: probably on the other side of the platform
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009203'] // U Pankstr.
+				],
+				position: .2, // todo: this is inexact
+				bssid: '00:81:c4:9d:b2:af',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009203'] // U Pankstr.
+				],
+				position: .75, // todo: this is inexact
+				bssid: '00:81:c4:9d:b2:f0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009203'] // U Pankstr.
+				],
+				position: .75, // todo: this is inexact
+				bssid: '00:81:c4:9d:b2:ff',
+				mac: null
+			},
+			{ // todo: probably on the other side of the platform
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009203'] // U Pankstr.
+				],
+				position: .75, // todo: this is inexact
+				bssid: '00:81:c4:e7:0f:90',
+				mac: null
+			},
+			{ // todo: probably on the other side of the platform
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009203'] // U Pankstr.
+				],
+				position: .75, // todo: this is inexact
+				bssid: '00:81:c4:e7:0f:9f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009203'] // U Pankstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f6:26:f0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009203'] // U Pankstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f6:26:ff',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'U8 south entrance',
+				bssid: '00:81:c4:91:11:90',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'U8 south entrance',
+				bssid: '00:81:c4:91:11:9f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'U8 north entrance',
+				bssid: '00:2a:10:09:ae:80',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'U8 north entrance',
+				bssid: '00:2a:10:09:ae:8f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'U8 north entrance',
+				bssid: '00:5d:73:7e:02:40',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'U8 north entrance',
+				bssid: '00:5d:73:7e:02:4f',
+				mac: null
+			},
+		]
+	},
 }
