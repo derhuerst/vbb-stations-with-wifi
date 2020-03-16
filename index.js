@@ -55,7 +55,27 @@ module.exports = {
 				position: 0.5, // todo: this is inexact
 				bssid: '00:81:c4:e7:0e:0f',
 				mac: null
-			}
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000009104'] // S+U Wedding
+				],
+				position: null, // todo
+				bssid: '00:81:c4:90:d2:7f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000009103'] // U Seestr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:7c:ce:90',
+				mac: null
+			},
 		]
 	},
 	// U Amrumer Str.
@@ -432,7 +452,7 @@ module.exports = {
 			},
 			{
 				type: 'other',
-				comment: 'main entrace',
+				comment: 'main entrance',
 				bssid: '00:81:c4:e7:10:7f',
 				mac: null
 			}
@@ -922,7 +942,27 @@ module.exports = {
 					['U6', '900000012102'] // U Kochstr./Checkpoint Charlie
 				],
 				position: .25,
+				bssid: '00:81:c4:f8:8c:30',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000012102'] // U Kochstr./Checkpoint Charlie
+				],
+				position: .25,
 				bssid: '00:81:c4:f8:8c:3f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000017101'] // U Mehringdamm
+				],
+				position: .15,
+				bssid: '00:81:c4:6e:6e:20',
 				mac: null
 			},
 			{
@@ -942,7 +982,23 @@ module.exports = {
 					['U6', '900000017101'] // U Mehringdamm
 				],
 				position: .75,
+				bssid: '00:81:c4:7c:cf:30',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000017101'] // U Mehringdamm
+				],
+				position: .75,
 				bssid: '00:81:c4:7c:cf:3f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'southern entrance of U6 section',
+				bssid: '00:81:c4:9d:bb:30',
 				mac: null
 			},
 			{
@@ -1414,9 +1470,26 @@ module.exports = {
 					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
 				],
 				position: null, // todo
-				bssid: '00:81:C4:91:06:CF',
+				bssid: '00:81:c4:91:06:cf',
 				mac: null,
 			},
+		]
+	},
+	// U Sophie-Charlotte-Platz
+	'900000022101': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000024201'] // U Bismarckstr.
+				],
+				position: .2, // this is inexact
+				bssid: '00:81:c4:74:0f:5f',
+				mac: null
+			},
+			// todo
 		]
 	},
 	// U Reinickendorfer Str.
