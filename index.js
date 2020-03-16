@@ -1266,5 +1266,329 @@ module.exports = {
 				mac: null
 			}
 		]
-	}
+	},
+	// U Walther-Schreiber-Platz
+	'900000061101': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e6:70:80',
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e6:70:8f',
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f8:84:b0',
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f8:84:bf',
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f8:84:40',
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f8:84:4f',
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:9d:74:f0',
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:21:59:d0',
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:21:59:df',
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:9d:74:ff',
+				mac: null,
+			},
+		]
+	},
+	// U Paradestr
+	'900000068101': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:90:e6:00',
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:90:e6:0f',
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:91:06:c0',
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000061102'] // U Friedrich-Wilhelm-Pl.
+				],
+				position: null, // todo
+				bssid: '00:81:C4:91:06:CF',
+				mac: null,
+			},
+		]
+	},
+	// U Reinickendorfer Str.
+	'900000008102': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000009104'] // S+U Wedding
+				],
+				position: .3,
+				bssid: '00:81:c4:9d:b6:70',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000009104'] // S+U Wedding
+				],
+				position: .3,
+				bssid: '00:81:c4:9d:b6:7f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'], // U Schwartzkopffstr.
+				],
+				position: .7,
+				bssid: '00:f6:63:1c:5d:00',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'], // U Schwartzkopffstr.
+				],
+				position: .7,
+				bssid: '00:f6:63:1c:5d:0f',
+				mac: null
+			}
+		]
+	},
+	// U Rehberge
+	'900000011101': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'] // U Afrikanische Str.
+				],
+				position: .1, // todo: this is inexact
+				bssid: 'bc:26:c7:31:f4:60',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'] // U Afrikanische Str.
+				],
+				position: .1, // todo: this is inexact
+				bssid: 'bc:26:c7:31:f4:6f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'] // U Afrikanische Str.
+				],
+				position: .2, // todo: this is inexact
+				bssid: 'bc:26:c7:4b:44:20',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'] // U Afrikanische Str.
+				],
+				position: .2, // todo: this is inexact
+				bssid: 'bc:26:c7:4b:44:2f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'] // U Afrikanische Str.
+				],
+				position: .2, // todo: this is inexact
+				bssid: 'bc:26:c7:5b:70:6f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'] // U Afrikanische Str.
+				],
+				position: .2, // todo: this is inexact
+				bssid: 'bc:26:c7:5b:70:60',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'] // U Afrikanische Str.
+				],
+				position: .6, // todo: this is inexact
+				bssid: 'bc:26:c7:39:55:00',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'] // U Afrikanische Str.
+				],
+				position: .6, // todo: this is inexact
+				bssid: 'bc:26:c7:39:55:0f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'] // U Afrikanische Str.
+				],
+				position: .8, // todo: this is inexact
+				bssid: 'bc:26:c7:26:1d:a0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'] // U Afrikanische Str.
+				],
+				position: .8, // todo: this is inexact
+				bssid: 'bc:26:c7:26:1d:af',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'] // U Afrikanische Str.
+				],
+				position: .9, // todo: this is inexact
+				bssid: 'bc:26:c7:36:45:e0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011102'] // U Afrikanische Str.
+				],
+				position: .9, // todo: this is inexact
+				bssid: 'bc:26:c7:36:45:ef',
+				mac: null
+			},
+		]
+	},
 }
