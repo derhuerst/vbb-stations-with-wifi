@@ -1591,4 +1591,194 @@ module.exports = {
 			},
 		]
 	},
+	// U Klosterstr
+	'900000100015': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100014'] // U Märkisches Museum
+				],
+				position: .5, // todo: this is inexact
+				bssid: '00:81:c4:7c:d3:40',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100014'] // U Märkisches Museum
+				],
+				position: .5, // todo: this is inexact
+				bssid: '00:81:c4:7c:d3:4f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100014'] // U Märkisches Museum
+				],
+				position: .5, // todo: this is inexact
+				bssid: '00:81:c4:90:ff:e0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100014'] // U Märkisches Museum
+				],
+				position: .5, // todo: this is inexact
+				bssid: '00:81:c4:90:ff:ef',
+				mac: null
+			},
+		]
+	},
+	// U Britz-Süd
+	'900000080402': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000080401'] // U Parchimer Allee
+				],
+				position: null, // todo
+				bssid: '00:81:c4:74:4c:40',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000080401'] // U Parchimer Allee
+				],
+				position: null, // todo
+				bssid: '00:81:c4:74:4c:4f',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000080401'] // U Parchimer Allee
+				],
+				position: null, // todo
+				bssid: '00:81:c4:93:f0:00',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000080401'] // U Parchimer Allee
+				],
+				position: null, // todo
+				bssid: '00:81:c4:93:f0:0f',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'south entrance',
+				bssid: '70:79:b3:68:d1:c2',
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'south entrance',
+				bssid: '70:79:b3:68:d1:cd',
+				mac: null
+			},
+		]
+	},
+	// U Al-Tempelhof
+	'900000068202': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000068201'] // S+U Tempelhof
+				],
+				position: 0.1, // todo: this is inexact
+				bssid: '00:81:c4:7c:cd:b0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000068201'] // S+U Tempelhof
+				],
+				position: 0.1, // todo: this is inexact
+				bssid: '00:81:c4:7c:cd:bf',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000068201'] // S+U Tempelhof
+				],
+				position: 0.5, // todo: this is inexact
+				bssid: '6c:99:89:a0:05:a0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000068201'] // S+U Tempelhof
+				],
+				position: 0.5, // todo: this is inexact
+				bssid: '6c:99:89:a0:05:af',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000068201'] // S+U Tempelhof
+				],
+				position: 0.5, // todo: this is inexact
+				bssid: '00:c8:8b:13:98:a0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000068201'] // S+U Tempelhof
+				],
+				position: 0.5, // todo: this is inexact
+				bssid: '00:c8:8b:13:98:af',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000068201'] // S+U Tempelhof
+				],
+				position: 0.9, // todo: this is inexact
+				bssid: '00:2a:10:22:ed:f0',
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000068201'] // S+U Tempelhof
+				],
+				position: 0.9, // todo: this is inexact
+				bssid: '00:2a:10:22:ed:ff',
+				mac: null
+			},
+		]
+	},
 }
