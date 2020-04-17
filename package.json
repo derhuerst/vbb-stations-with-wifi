@@ -1,7 +1,7 @@
 {
 	"name": "vbb-stations-with-wifi",
 	"description": "VBB stations with free wifi and their BSSIDs.",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"main": "index.js",
 	"files": [
 		"index.js",
@@ -23,17 +23,17 @@
 	"bugs": "https://github.com/derhuerst/vbb-stations-with-wifi/issues",
 	"license": "Unlicense",
 	"engines": {
-		"node": ">=6.5.0"
+		"node": ">=10"
 	},
 	"devDependencies": {
 		"is-mac": "^1.0.1",
-		"tap-min": "^1.2.2",
+		"tap-min": "^2.0.0",
 		"tape": "^4.6.3",
-		"vbb-stations": "^6.0.0"
+		"vbb-stations": "^7.2.0"
 	},
 	"scripts": {
 		"test": "node test.js | tap-min",
-		"prepublish": "npm test"
+		"prepublishOnly": "npm test"
 	},
 	"dependencies": {
 		"lodash.omit": "^4.5.0"
