@@ -2063,4 +2063,22 @@ module.exports = {
 			},
 		]
 	},
+
+	// U Naturkundemuseum
+	'900000100009': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'] // U Schwartzkopffstr.
+				],
+				position: .5, // todo: this is not exact
+				bssid: '00:81:c4:f6:24:c0',
+				mac: null
+			},
+			// todo: there are more
+		]
+	},
 }
