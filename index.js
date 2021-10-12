@@ -494,6 +494,132 @@ module.exports = {
 			}
 		]
 	},
+	// U Heinrich-Heine-Str.
+	'900000100008': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'] // Moritzplatz
+				],
+				position: 0,
+				bssid: '00:81:c4:e6:ea:30', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'] // Moritzplatz
+				],
+				position: 0,
+				bssid: '00:81:c4:e6:ea:3f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'] // Moritzplatz
+				],
+				position: 0.2,
+				bssid: '00:81:c4:74:31:cf', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'] // Moritzplatz
+				],
+				position: 0.2,
+				bssid: '00:81:c4:74:31:c0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'] // Moritzplatz
+				],
+				position: 0.4,
+				bssid: '00:81:c4:6e:2b:a0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'] // Moritzplatz
+				],
+				position: 0.4,
+				bssid: '00:81:c4:6e:2b:af', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'] // Moritzplatz
+				],
+				position: 0.6,
+				bssid: '00:81:c4:e7:0c:f0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'] // Moritzplatz
+				],
+				position: 0.6,
+				bssid: '00:81:c4:e7:0c:ff', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'] // Moritzplatz
+				],
+				position: 0.8,
+				bssid: '00:81:c4:33:e7:b0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'] // Moritzplatz
+				],
+				position: 0.8,
+				bssid: '00:81:c4:33:e7:bf', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'] // Moritzplatz
+				],
+				position: 1,
+				bssid: '00:81:c4:e6:a4:d0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'] // Moritzplatz
+				],
+				position: 1,
+				bssid: '00:81:c4:e6:a4:df', // 5GHz
+				mac: null,
+			},
+		],
+	},
 	// U Moritzplatz
 	'900000013101': {
 		wifi: true,
