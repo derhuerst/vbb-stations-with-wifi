@@ -2271,4 +2271,220 @@ module.exports = {
 			// todo: there are more
 		]
 	},
+
+	// U Fehrbelliner Platz
+	'900000041101': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U7', '900000041102'] // U Blissestr.
+				],
+				position: .6,
+				bssid: '00:81:c4:91:06:80', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U7', '900000041102'] // U Blissestr.
+				],
+				position: .6,
+				bssid: '00:81:c4:91:06:8f', // 5GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U7', '900000041201'] // U Konstanzer Str.
+				],
+				position: .1,
+				bssid: '00:81:c4:9d:80:e0', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U7', '900000041201'] // U Konstanzer Str.
+				],
+				position: .1,
+				bssid: '00:81:c4:9d:80:ef', // 5GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U7', '900000041201'] // U Konstanzer Str.
+				],
+				position: .8,
+				bssid: '00:81:c4:f8:8a:a0', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U7', '900000041201'] // U Konstanzer Str.
+				],
+				position: .8,
+				bssid: '00:81:c4:f8:8a:af', // 5GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U3', '900000043101'] // U Hohenzollernpl.
+				],
+				position: .85,
+				bssid: '00:81:c4:93:bc:d0', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U3', '900000043101'] // U Hohenzollernpl.
+				],
+				position: .85,
+				bssid: '00:81:c4:93:bc:df', // 5GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U3', '900000045102'] // S+U Heidelberger Pl.
+				],
+				position: .85,
+				bssid: '00:81:c4:7c:cd:00', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U3', '900000045102'] // S+U Heidelberger Pl.
+				],
+				position: .85,
+				bssid: '00:81:c4:7c:cd:0f', // 5GHz
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'entrance area',
+				bssid: '00:81:c4:e6:e9:20', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: 'entrance area',
+				bssid: '00:81:c4:e6:e9:2f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: 'U7 <-> U3 passageway',
+				bssid: 'a4:b4:39:4e:43:80', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: 'U7 <-> U3 passageway',
+				bssid: 'a4:b4:39:4e:43:8f', // 5GHz
+				mac: null,
+			},
+		],
+	},
+
+	// U Spichernstr.
+	'900000042101': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000023203'] // U Kurfürstendamm
+				],
+				position: .5, // todo: is this correct?
+				bssid: '00:81:c4:7c:a1:f0', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000023203'] // U Kurfürstendamm
+				],
+				position: .5, // todo: is this correct?
+				bssid: '00:81:c4:7c:a1:ff', // 5GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000023203'] // U Kurfürstendamm
+				],
+				position: 1, // todo: is this correct?
+				bssid: '00:81:c4:7c:a0:b0', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000023203'] // U Kurfürstendamm
+				],
+				position: 1, // todo: is this correct?
+				bssid: '00:81:c4:7c:a0:bf', // 5GHz
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'U9 north entrance',
+				bssid: '00:81:c4:7c:ca:b0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: 'U9 north entrance',
+				bssid: '00:81:c4:7c:ca:bf', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:81:c4:74:18:42', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:81:c4:74:18:4d', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:81:c4:e7:0e:30', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:81:c4:e7:0e:3f', // 5GHz
+				mac: null,
+			},
+			// todo: there are probably more on the U9 platform
+			// todo: U3 platform
+		],
+	},
 }
