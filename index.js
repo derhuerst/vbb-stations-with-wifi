@@ -130,6 +130,58 @@ module.exports = {
 			}
 		]
 	},
+	// U Nauener Platz
+	'900000009201': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000009102'] // U Leopoldplatz
+				],
+				position: .6, // this is not precise
+				bssid: '00:81:c4:21:4e:00', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000009102'] // U Leopoldplatz
+				],
+				position: .6, // this is not precise
+				bssid: '00:81:c4:21:4e:0f', // 5GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000009202'] // U Osloer Str.
+				],
+				position: .4, // this is not precise
+				bssid: '00:81:c4:73:fc:90', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000009202'] // U Osloer Str.
+				],
+				position: .4, // this is not precise
+				bssid: '00:81:c4:73:fc:9f', // 5GHz
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'north east entrance',
+				bssid: '70:79:b3:69:25:62', // 2.4GHz
+				mac: null
+			},
+		],
+	},
 	// S+U Zoologischer Garten
 	'900000023201': {
 		wifi: true,
@@ -994,27 +1046,39 @@ module.exports = {
 			{
 				type: 'other',
 				comment: 'tram entrance',
-				bssid: 'a4:6c:2a:51:89:4f',
+				bssid: 'a4:6c:2a:51:89:40', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'tram entrance',
+				bssid: 'a4:6c:2a:51:89:4f', // 5GHz
 				mac: null
 			},
 			{
 				type: 'other',
 				comment: 'west entrance',
-				bssid: 'a4:6c:2a:20:bf:9f',
+				bssid: 'a4:6c:2a:20:bf:90', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'other',
+				comment: 'west entrance',
+				bssid: 'a4:6c:2a:20:bf:9f', // 5GHz
 				mac: null
 			},
 			{
 				type: 'other',
 				comment: 'center of the entrance area',
-				bssid: 'a4:6c:2a:20:c5:4f',
+				bssid: 'a4:6c:2a:20:c5:40', // 2.4GHz
 				mac: null
 			},
 			{
 				type: 'other',
 				comment: 'center of the entrance area',
-				bssid: 'a4:6c:2a:51:89:40',
+				bssid: 'a4:6c:2a:20:c5:4f', // 5GHz
 				mac: null
-			}
+			},
 		]
 	},
 	// U Platz der Luftbrücke
