@@ -1,7 +1,7 @@
 {
 	"name": "vbb-stations-with-wifi",
 	"description": "VBB stations with free wifi and their BSSIDs.",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"main": "index.js",
 	"files": [
 		"index.js",
