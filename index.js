@@ -2487,4 +2487,196 @@ module.exports = {
 			// todo: U3 platform
 		],
 	},
+
+	// S+U Rathaus Steglitz
+	'900000062202': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000062203'], // U Schloßstr.
+				],
+				position: .9, // todo: this is inexact
+				bssid: 'bc:26:c7:4b:0e:c0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000062203'], // U Schloßstr.
+				],
+				position: .9, // todo: this is inexact
+				bssid: 'bc:26:c7:4b:0e:cf', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000062203'], // U Schloßstr.
+				],
+				position: .9, // todo: this is inexact
+				bssid: 'bc:26:c7:4d:bc:40', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000062203'], // U Schloßstr.
+				],
+				position: .9, // todo: this is inexact
+				bssid: 'bc:26:c7:5b:69:a0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000062203'], // U Schloßstr.
+				],
+				position: .1, // todo: this is inexact
+				bssid: 'bc:26:c7:46:2f:c0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000062203'], // U Schloßstr.
+				],
+				position: .1, // todo: this is inexact
+				bssid: 'bc:26:c7:46:2f:cf', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: 'bc:26:c7:1d:8e:a0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: 'bc:26:c7:1d:8e:af', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: 'bc:26:c7:25:96:80', // 2.4GHz
+				mac: null,
+			},
+			// todo: there are probably more in the entrance areas
+		],
+	},
+
+	// U Turmstr.
+	'900000003104': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000003101'], // U Hansapl.
+				],
+				position: 0,
+				bssid: '00:81:c4:e7:18:10', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000003101'], // U Hansapl.
+				],
+				position: 0,
+				bssid: '00:81:c4:e7:18:1f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000002201'], // U Birkenstr.
+				],
+				position: .6,
+				bssid: '00:81:c4:f6:25:70', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000002201'], // U Birkenstr.
+				],
+				position: .6,
+				bssid: '00:81:c4:f6:25:7f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000003101'], // U Hansapl.
+				],
+				position: .6,
+				bssid: '00:81:c4:f6:4a:30', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000003101'], // U Hansapl.
+				],
+				position: .6,
+				bssid: '00:81:c4:f6:4a:3f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000003101'], // U Hansapl.
+				],
+				position: 1,
+				bssid: '00:81:c4:91:2e:50', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000003101'], // U Hansapl.
+				],
+				position: 1,
+				bssid: '00:81:c4:91:2e:5f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: 'south entrance',
+				bssid: '00:81:c4:9d:b2:00', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: 'south entrance',
+				bssid: '00:81:c4:9d:b2:0f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:81:c4:f6:19:a0', // 2.4GHz
+				mac: null,
+			},
+			// todo: there are probably more in the entrance areas
+		],
+	},
 }
