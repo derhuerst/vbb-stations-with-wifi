@@ -3,8 +3,89 @@
 module.exports = {
 	// U Schwartzkopffstr.
 	'900000100501': {
-		wifi: false,
-		accessPoints: []
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100009'] // U Naturkundemuseum
+				],
+				position: null, // todo
+				bssid: 'ac:4a:56:9a:8d:e0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100009'] // U Naturkundemuseum
+				],
+				position: null, // todo
+				bssid: 'ac:4a:56:9a:8d:ef', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100009'] // U Naturkundemuseum
+				],
+				position: null, // todo
+				bssid: 'ac:4a:56:99:77:40', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100009'] // U Naturkundemuseum
+				],
+				position: null, // todo
+				bssid: 'ac:4a:56:99:77:4f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100009'] // U Naturkundemuseum
+				],
+				position: null, // todo
+				bssid: '4c:a6:4d:7c:b2:a0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100009'] // U Naturkundemuseum
+				],
+				position: null, // todo
+				bssid: '4c:a6:4d:7c:b2:af', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100009'] // U Naturkundemuseum
+				],
+				position: null, // todo
+				bssid: 'ac:4a:56:9a:97:60', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100009'] // U Naturkundemuseum
+				],
+				position: null, // todo
+				bssid: 'ac:4a:56:9a:97:6f', // 5GHz
+				mac: null,
+			},
+		],
 	},
 
 	// U Leopoldplatz
@@ -2380,10 +2461,40 @@ module.exports = {
 					['U6', '900000100501'] // U Schwartzkopffstr.
 				],
 				position: .5, // todo: this is not exact
-				bssid: '00:81:c4:f6:24:c0',
+				bssid: '00:81:c4:f6:24:c0', // 2.4GHz
 				mac: null
 			},
-			// todo: there are more
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'] // U Schwartzkopffstr.
+				],
+				position: .5, // todo: this is not exact
+				bssid: '00:81:c4:f6:24:cf', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'] // U Schwartzkopffstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f8:8a:90', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'] // U Schwartzkopffstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f8:8a:9f', // 5GHz
+				mac: null,
+			},
+			// todo: there are probably more
 		]
 	},
 
