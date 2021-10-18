@@ -6,11 +6,6 @@ module.exports = {
 		wifi: false,
 		accessPoints: []
 	},
-	// U Reinickendorfer Str.
-	'900000008102': {
-		wifi: false,
-		accessPoints: []
-	},
 
 	// U Leopoldplatz
 	'900000009102': {
@@ -881,7 +876,17 @@ module.exports = {
 					['U6', '900000009102'] // U Leopoldplatz
 				],
 				position: .5, // todo: this is inexact
-				bssid: '00:81:c4:93:da:f0',
+				bssid: '00:81:c4:93:da:f0', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000009102'] // U Leopoldplatz
+				],
+				position: .5, // todo: this is inexact
+				bssid: '00:81:c4:93:da:ff', // 5GHz
 				mac: null
 			},
 			{
@@ -891,10 +896,39 @@ module.exports = {
 					['U6', '900000008102'] // U Reinickendorfer Str.
 				],
 				position: .5, // todo: this is inexact
-				bssid: '00:81:c4:7c:8b:7f',
+				bssid: '00:81:c4:7c:8b:7f', // 5GHz
 				mac: null
-			}
-			// todo: where is `00:81:c4:93:da:ff`?
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000008102'] // U Reinickendorfer Str.
+				],
+				position: .5, // todo: this is inexact
+				bssid: '00:81:c4:7c:8b:70', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000008102'] // U Reinickendorfer Str.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f6:17:ef', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000008102'] // U Reinickendorfer Str.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f6:17:e0', // 2.4GHz
+				mac: null,
+			},
 		]
 	},
 	// U Hermannstr
@@ -1690,10 +1724,91 @@ module.exports = {
 				type: 'platform',
 				platform: null,
 				lines: [
+					['U6', '900000100501'], // U Schwartzkopffstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e7:0a:f0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'], // U Schwartzkopffstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e7:0a:ff', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'], // U Schwartzkopffstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:91:00:40', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'], // U Schwartzkopffstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:91:00:4f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'], // U Schwartzkopffstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f8:8b:30', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'], // U Schwartzkopffstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f8:8b:3f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'], // U Schwartzkopffstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e7:0d:d0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100501'], // U Schwartzkopffstr.
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e7:0d:df', // 5GHz
+				mac: null,
+			},
+			// todo: do these ones still exist?
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
 					['U6', '900000009104'] // S+U Wedding
 				],
 				position: .3,
-				bssid: '00:81:c4:9d:b6:70',
+				bssid: '00:81:c4:9d:b6:70', // 2.4GHz
 				mac: null
 			},
 			{
@@ -1703,7 +1818,7 @@ module.exports = {
 					['U6', '900000009104'] // S+U Wedding
 				],
 				position: .3,
-				bssid: '00:81:c4:9d:b6:7f',
+				bssid: '00:81:c4:9d:b6:7f', // 5GHz
 				mac: null
 			},
 			{
@@ -1713,7 +1828,7 @@ module.exports = {
 					['U6', '900000100501'], // U Schwartzkopffstr.
 				],
 				position: .7,
-				bssid: '00:f6:63:1c:5d:00',
+				bssid: '00:f6:63:1c:5d:00', // 2.4GHz
 				mac: null
 			},
 			{
@@ -1723,7 +1838,7 @@ module.exports = {
 					['U6', '900000100501'], // U Schwartzkopffstr.
 				],
 				position: .7,
-				bssid: '00:f6:63:1c:5d:0f',
+				bssid: '00:f6:63:1c:5d:0f', // 5GHz
 				mac: null
 			}
 		]
