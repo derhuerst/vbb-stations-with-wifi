@@ -99,7 +99,7 @@ module.exports = {
 					['U9', '900000009101'] // U Amrumer Str.
 				],
 				position: 0.25, // todo: this is inexact
-				bssid: '00:f6:63:cc:00:9f',
+				bssid: '00:f6:63:cc:00:9f', // 5GHz
 				mac: null
 			},
 			{
@@ -109,7 +109,17 @@ module.exports = {
 					['U9', '900000009101'] // U Amrumer Str.
 				],
 				position: 0.6, // todo: this is inexact
-				bssid: '00:81:c4:f6:12:8f',
+				bssid: '00:81:c4:f6:12:80', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000009101'] // U Amrumer Str.
+				],
+				position: 0.6, // todo: this is inexact
+				bssid: '00:81:c4:f6:12:8f', // 5GHz
 				mac: null
 			},
 			{
@@ -119,7 +129,17 @@ module.exports = {
 					['U9', '900000009201'] // U Nauener Platz
 				],
 				position: 0.25, // todo: this is inexact
-				bssid: '00:f6:63:cc:26:af',
+				bssid: '00:f6:63:cc:26:a0', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000009201'] // U Nauener Platz
+				],
+				position: 0.25, // todo: this is inexact
+				bssid: '00:f6:63:cc:26:af', // 5GHz
 				mac: null
 			},
 			{
@@ -129,7 +149,17 @@ module.exports = {
 					['U9', '900000009201'] // U Nauener Platz
 				],
 				position: 0.5, // todo: this is inexact
-				bssid: '00:81:c4:e7:0e:0f',
+				bssid: '00:81:c4:e7:0e:00', // 2.4GHz
+				mac: null
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000009201'] // U Nauener Platz
+				],
+				position: 0.5, // todo: this is inexact
+				bssid: '00:81:c4:e7:0e:0f', // 5GHz
 				mac: null
 			},
 			{
@@ -2903,6 +2933,110 @@ module.exports = {
 				mac: null,
 			},
 			// todo: there are probably more in the entrance areas
+		],
+	},
+
+	// U Wittenbergplatz
+	'900000056101': {
+		wifi: true,
+		accessPoints: [
+			// todo: these are probably on the platform II (U3 + U2 eastwards), but I'm not sure
+			{
+				type: 'platform',
+				platform: null,
+				lines: [], // todo
+				position: null, // todo
+				bssid: '00:81:c4:90:ce:90', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [], // todo
+				position: null, // todo
+				bssid: '00:81:c4:90:ce:9f', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [], // todo
+				position: null, // todo
+				bssid: '00:81:c4:90:d2:30', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [], // todo
+				position: null, // todo
+				bssid: '00:81:c4:90:d2:3f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [], // todo
+				position: null, // todo
+				bssid: '00:81:c4:91:05:80', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [], // todo
+				position: null, // todo
+				bssid: '00:81:c4:91:05:8f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [], // todo
+				position: null, // todo
+				bssid: '00:81:c4:f6:18:40', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [], // todo
+				position: null, // todo
+				bssid: '00:81:c4:f6:18:4f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [], // todo
+				position: null, // todo
+				bssid: '00:81:c4:f8:8c:e0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [], // todo
+				position: null, // todo
+				bssid: '00:81:c4:f8:8c:ef', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [], // todo
+				position: null, // todo
+				bssid: '1c:1d:86:41:74:32', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [], // todo
+				position: null, // todo
+				bssid: 'a4:b4:39:4d:f6:2d', // 5GHz
+				mac: null,
+			},
 		],
 	},
 }
