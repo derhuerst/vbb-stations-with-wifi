@@ -1412,6 +1412,56 @@ module.exports = {
 			},
 		]
 	},
+	// U Pankstr
+	'900000009203': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009202'], // Osloer Str
+				],
+				// todo: or is it .5 -> 900000007102 Gesundbrunnen?
+				position: .5, // todo: not precise
+				bssid: '00:81:c4:f6:1f:60', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009202'], // Osloer Str
+				],
+				// todo: or is it .5 -> 900000007102 Gesundbrunnen?
+				position: .5, // todo: not precise
+				bssid: '00:81:c4:f6:1f:6f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009202'], // Osloer Str
+				],
+				// todo: or is it .5 -> 900000007102 Gesundbrunnen?
+				position: .5, // todo: not precise
+				bssid: '00:81:c4:9d:9d:b0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000009202'], // Osloer Str
+				],
+				// todo: or is it .5 -> 900000007102 Gesundbrunnen?
+				position: .5, // todo: not precise
+				bssid: '00:81:c4:9d:9d:bf', // 5GHz
+				mac: null,
+			},
+		],
+	},
 	// U Platz der Luftbrücke
 	'900000017102': {
 		wifi: true,
