@@ -452,6 +452,92 @@ module.exports = {
 			}
 		]
 	},
+	// U Hausvogteiplatz
+	'900000100012': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100013'], // U Spittelmarkt
+				],
+				position: .1, // todo: or .9 on the other platform?
+				bssid: '00:5d:73:06:1d:e0', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100013'], // U Spittelmarkt
+				],
+				position: .1, // todo: or .9 on the other platform?
+				bssid: '00:5d:73:06:1d:ef', // 5Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100013'], // U Spittelmarkt
+				],
+				position: .25, // todo: or .75 on the other platform?
+				bssid: '00:5d:73:15:4a:80', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100013'], // U Spittelmarkt
+				],
+				position: .25, // todo: or .75 on the other platform?
+				bssid: '00:5d:73:15:4a:8f', // 5Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100013'], // U Spittelmarkt
+				],
+				position: .5, // todo: or .5 on the other platform?
+				bssid: '00:5d:73:08:ea:40', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100013'], // U Spittelmarkt
+				],
+				position: .5, // todo: or .5 on the other platform?
+				bssid: '00:5d:73:08:ea:4f', // 5Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100013'], // U Spittelmarkt
+				],
+				position: .75, // todo: or .25 on the other platform?
+				bssid: '00:5d:73:06:23:40', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000100013'], // U Spittelmarkt
+				],
+				position: .75, // todo: or .25 on the other platform?
+				bssid: '00:5d:73:06:23:4f', // 5Ghz
+				mac: null,
+			},
+		],
+	},
 	// U Französische Str.
 	'900000100027': {
 		wifi: true,
