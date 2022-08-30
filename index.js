@@ -1211,7 +1211,17 @@ module.exports = {
 					['U9', '900000009201'] // U Nauener Platz
 				],
 				position: .4,
-				bssid: 'a8:9d:21:8c:99:6f',
+				bssid: 'a8:9d:21:8c:99:60', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000009201'] // U Nauener Platz
+				],
+				position: .4,
+				bssid: 'a8:9d:21:8c:99:6f', // 5Ghz
 				mac: null
 			},
 			{
@@ -1221,7 +1231,17 @@ module.exports = {
 					['U9', '900000009201'] // U Nauener Platz
 				],
 				position: .9,
-				bssid: 'a4:6c:2a:2f:65:0f',
+				bssid: 'a4:6c:2a:2f:65:00', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U9', '900000009201'] // U Nauener Platz
+				],
+				position: .9,
+				bssid: 'a4:6c:2a:2f:65:0f', // 5Ghz
 				mac: null
 			},
 			{
@@ -1232,7 +1252,18 @@ module.exports = {
 					['U9', '900000009201'] // U Nauener Platz
 				],
 				position: .1,
-				bssid: 'a4:6c:2a:6c:0e:0f',
+				bssid: 'a4:6c:2a:6c:0e:00', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					// todo: actually it's .9 on the north-bound side
+					['U9', '900000009201'] // U Nauener Platz
+				],
+				position: .1,
+				bssid: 'a4:6c:2a:6c:0e:0f', // 5Ghz
 				mac: null
 			},
 			{
@@ -1243,7 +1274,18 @@ module.exports = {
 					['U9', '900000009201'] // U Nauener Platz
 				],
 				position: .35,
-				bssid: 'a4:6c:2a:6c:10:8f',
+				bssid: 'a4:6c:2a:6c:10:80', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					// todo: actually it's .65 on the north-bound side
+					['U9', '900000009201'] // U Nauener Platz
+				],
+				position: .35,
+				bssid: 'a4:6c:2a:6c:10:8f', // 5Ghz
 				mac: null
 			},
 			{
