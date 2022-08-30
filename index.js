@@ -1558,6 +1558,104 @@ module.exports = {
 			}
 		]
 	},
+	// U Alt-Tegel
+	'900000089301': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000088202'], // Borsigwerke
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e7:10:c0', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000088202'], // Borsigwerke
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e7:10:cf', // 5Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000088202'], // Borsigwerke
+				],
+				position: null, // todo
+				bssid: '00:f6:63:32:70:f0', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000088202'], // Borsigwerke
+				],
+				position: null, // todo
+				bssid: '00:f6:63:32:70:ff', // 5Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000088202'], // Borsigwerke
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f6:1c:d0', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000088202'], // Borsigwerke
+				],
+				position: null, // todo
+				bssid: '00:81:c4:f6:1c:df', // 5Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000088202'], // Borsigwerke
+				],
+				position: null, // todo
+				bssid: '00:81:c4:91:06:40', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000088202'], // Borsigwerke
+				],
+				position: null, // todo
+				bssid: '00:81:c4:91:06:4f', // 5Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000088202'], // Borsigwerke
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e7:09:90', // 2.4Ghz
+				mac: null,
+			},
+			// todo: 00:81:c4:e7:09:9f
+			// todo: there are probably more
+		],
+	},
 	// U Möckernbrücke
 	'900000017104': {
 		wifi: true,
