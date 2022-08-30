@@ -778,6 +778,64 @@ module.exports = {
 			},
 		],
 	},
+	// U Kottbusser Tor
+	'900000013102': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'], // Moritzplatz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:91:04:f0', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'], // Moritzplatz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:91:04:ff', // 5Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'], // Moritzplatz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e7:0f:f0', // 2.4Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'], // Moritzplatz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e7:0f:ff', // 5Ghz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U8', '900000013101'], // Moritzplatz
+				],
+				position: null, // todo
+				bssid: '00:81:c4:e7:17:7f', // 5Ghz
+				mac: null,
+			},
+			// todo: there are much more
+			// todo: U1/U3
+		],
+	},
 	// U Moritzplatz
 	'900000013101': {
 		wifi: true,
