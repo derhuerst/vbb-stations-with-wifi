@@ -2761,6 +2761,502 @@ module.exports = {
 				bssid: '00:5d:73:7e:02:4f',
 				mac: null
 			},
+
+			{
+				type: 'other',
+				comment: 'one of the S-Bahn platforms', // todo: which one?
+				// todo: position
+				bssid: '00:5d:73:9c:da:6f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'one of the S-Bahn platforms', // todo: which one?
+				// todo: position
+				bssid: '00:5d:73:b1:5f:4f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'one of the S-Bahn platforms', // todo: which one?
+				// todo: position
+				bssid: '00:5d:73:db:ed:af', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'one of the S-Bahn platforms', // todo: which one?
+				// todo: position
+				bssid: '00:5d:73:9c:da:60', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'one of the S-Bahn platforms', // todo: which one?
+				// todo: position
+				bssid: '00:5d:73:db:ed:a0', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'one of the S-Bahn platforms', // todo: which one?
+				// todo: position
+				bssid: '00:5d:73:b1:5f:40', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .15 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:b1:62:20', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .15 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:b1:62:2f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .2 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:98:17:00', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .2 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:98:17:0f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .25 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:9b:ec:20', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .25 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:9b:ec:2f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .4 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:8b:41:40', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .4 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:8b:41:4f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .5 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:97:c3:ef', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .6 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:95:62:cf', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .7 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:95:b4:cf', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .8 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:9b:ec:6f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .95 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:9c:d6:c0', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'platform 7, 8, 9 or 10', // todo: which one?
+				// todo: position .95 -> 900000009104 Wedding / 900000008101 Humboldthain / 900000003200 Berlin Hbf tief
+				bssid: '00:5d:73:9c:d6:cf', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+
+			{
+				type: 'other',
+				comment: 'underpass connecting S & long-distance platforms',
+				bssid: '00:5d:73:8a:cd:c0', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'underpass connecting S & long-distance platforms',
+				bssid: '00:5d:73:8a:cd:cf', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'underpass connecting S & long-distance platforms',
+				bssid: '00:5d:73:9c:db:40', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: 'underpass connecting S & long-distance platforms',
+				bssid: '00:5d:73:9c:db:4f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+
+			// todo: WiFi@DB APs with unknown location
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:75:93:0f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:8b:42:6f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:95:60:6f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:95:60:ef', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:95:b4:ef', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:98:13:8f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:9b:eb:c0', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:9b:eb:cf', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:9b:ec:0f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:9c:d8:4f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:b0:f1:6f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:d0:b8:6f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:d4:87:60', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:d4:87:6f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:db:f2:2f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:e6:d1:cf', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:e6:d8:8f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:e6:d8:ef', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+
+			// todo: these WiFi@DB APs are probably on platforms
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:63:58:60', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:63:58:6f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:63:ce:60', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:63:ce:6f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:8a:cd:00', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:8a:cd:0f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:8a:ce:20', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:8a:ce:2f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:95:62:ef', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:98:16:80', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:98:16:8f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:99:92:cf', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:99:96:80', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:99:96:8f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:9b:ed:8f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:9c:da:cf', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:b1:5d:80', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:b1:5d:8f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:b1:63:60', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:b1:63:6f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:db:eb:cf', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:db:f2:60', // 2.4GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:db:f2:6f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:de:b3:af', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
+			{
+				type: 'other',
+				comment: '?', // todo
+				bssid: '00:5d:73:e6:dd:2f', // 5GHz
+				mac: null,
+				network: 'WiFi@DB',
+			},
 		]
 	},
 
