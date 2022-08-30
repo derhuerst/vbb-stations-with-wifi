@@ -1492,8 +1492,68 @@ module.exports = {
 	'900000009103': {
 		wifi: true,
 		accessPoints: [
-			// todo: where is `00:81:c4:91:06:ef`?
-		]
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011101'] // U Rehberge
+				],
+				position: .1,
+				bssid: '00:71:c4:e7:0b:70', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011101'] // U Rehberge
+				],
+				position: .1,
+				bssid: '00:71:c4:e7:0b:7f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011101'] // U Rehberge
+				],
+				position: .5,
+				bssid: '00:71:c4:91:03:50', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011101'] // U Rehberge
+				],
+				position: .5,
+				bssid: '00:71:c4:91:03:5f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011101'] // U Rehberge
+				],
+				position: .6,
+				bssid: '00:71:c4:e7:0b:20', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U6', '900000011101'] // U Rehberge
+				],
+				position: .6,
+				bssid: '00:71:c4:e7:0b:2f', // 5GHz
+				mac: null,
+			},
+			// todo: western platform, currently under construction
+		],
 	},
 	// U Pankow
 	'900000130002': {
