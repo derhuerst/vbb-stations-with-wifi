@@ -2161,6 +2161,69 @@ module.exports = {
 			// todo
 		]
 	},
+	// U Bismarckstr.
+	'900000024201': {
+		wifi: true,
+		accessPoints: [
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000022101'] // U Sophie-Charlotte-Platz
+				],
+				// todo: AP shared with platform -> 900000022201 U Deutsche Oper
+				position: .9, // todo: not precise
+				bssid: '1c:d1:e0:3e:23:00', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000022101'] // U Sophie-Charlotte-Platz
+				],
+				// todo: AP shared with platform -> 900000022201 U Deutsche Oper
+				position: .9, // todo: not precise
+				bssid: '1c:d1:e0:3e:23:0f', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000022101'] // U Sophie-Charlotte-Platz
+				],
+				// todo: AP shared with platform -> 900000022201 U Deutsche Oper
+				position: .6, // todo: not precise
+				bssid: '1c:d1:e0:3b:44:ef', // 5GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000022101'] // U Sophie-Charlotte-Platz
+				],
+				// todo: AP shared with platform -> 900000022201 U Deutsche Oper
+				position: .2, // todo: not precise
+				bssid: '1c:d1:e0:3b:d2:c0', // 2.4GHz
+				mac: null,
+			},
+			{
+				type: 'platform',
+				platform: null,
+				lines: [
+					['U2', '900000022101'] // U Sophie-Charlotte-Platz
+				],
+				// todo: AP shared with platform -> 900000022201 U Deutsche Oper
+				position: .2, // todo: not precise
+				bssid: '1c:d1:e0:3b:d2:cf', // 5GHz
+				mac: null,
+			},
+			// todo: where is a4:88:73:85:96:8f 5GHz?
+			// todo: U7 platforms, entrances
+		],
+	},
 	// U Reinickendorfer Str.
 	'900000008102': {
 		wifi: true,
